@@ -3,11 +3,11 @@
 
 🔗 **시뮬레이션 해보기 (Live Demo):** [https://cupfeedback.github.io/threebody-problem-simulation/](https://cupfeedback.github.io/threebody-problem-simulation/)
 
-이 repo는 넷플릭스 드라마 **삼체(3 Body Problem)**와 원작 소설을 보고, 소설 속에 묘사된 '삼체인들의 환경'이 과연 물리학적으로 구현 가능한지 궁금해서 시작하게 되었습니다.
+이 repo는 넷플릭스 드라마 삼체(3 Body Problem)와 원작 소설을 보고, 소설 속에 묘사된 '삼체인들의 환경'이 과연 물리학적으로 구현 가능한지 궁금해서 시작하게 되었습니다.
 
 ## 🧪 Antigravity와 함께 탐구한 결과 (Findings with Antigravity)
 
-**Antigravity (AI Agent)**를 활용해 코드를 작성하고 시뮬레이션을 돌려본 결과, **"소설 속의 삼체 환경은 물리적 제약 없이는 거의 구현 불가능하다"**는 결론을 얻었습니다.
+Antigravity (AI Agent)를 활용해 코드를 작성하고 시뮬레이션을 돌려본 결과, "소설 속의 삼체 환경은 물리적 제약 없이는 거의 구현 불가능하다"는 결론을 얻었습니다.
 
 ### 1. 단순 무작위 (Pure Random)의 실패
 초기에 `Math.random()`만을 사용하여 위치와 속도를 무작위로 설정했을 때는 소설 같은 환경이 나오지 않았습니다.
