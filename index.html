@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three-Body Problem Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="simulationCanvas"></canvas>
+
+    <div class="ui-container">
+        <h1>Three-Body Problem</h1>
+        <div class="controls">
+            <button id="btn-figure8" class="active">Figure-8 (Stable)</button>
+            <button id="btn-chaotic">Chaotic (Random)</button>
+            <button id="btn-info" class="info-btn">How it Works</button>
+        </div>
+        <p class="description" id="mode-description">
+            A stable solution where three bodies chase each other in a figure-8 orbit.
+        </p>
+    </div>
+
+    <div id="info-panel" class="info-panel hidden">
+        <div class="info-content">
+            <button id="close-info" class="close-btn">&times;</button>
+            <h2>The Physics Behind It</h2>
+            <p><strong>Newton's Law of Universal Gravitation</strong></p>
+            <div class="formula">$$F = G \frac{m_1 m_2}{r^2}$$</div>
+            <p>
+                Every particle attracts every other particle with a force directly proportional to the product of their
+                masses and inversely proportional to the square of the distance between their centers.
+            </p>
+            <p><strong>Velocity Verlet Integration</strong></p>
+            <p>
+                We use a numerical method called Velocity Verlet to calculate the positions and velocities at each time
+                step. This method is symplectic, meaning it conserves energy better than simpler methods, making orbits
+                like the Figure-8 stable.
+            </p>
+            <p><strong>The Three-Body Problem</strong></p>
+            <p>
+                Unlike the two-body problem, the three-body problem generally has no closed-form solution. It is often
+                chaotic, meaning small changes in initial conditions lead to vastly different outcomes (Butterfly
+                Effect).
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
