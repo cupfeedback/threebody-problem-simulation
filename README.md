@@ -33,7 +33,7 @@ Antigravity (AI Agent)를 활용해 코드를 작성하고 시뮬레이션을 �
 
 ---
 
-## 🇬🇧 English Description
+## English Description
 
 This project started from a curiosity after watching the **Netflix series '3 Body Problem'**: **"Is the chaotic environment of Trisolaris actually physically possible?"**
 
