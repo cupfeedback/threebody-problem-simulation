@@ -3,11 +3,11 @@
 
 🔗 **시뮬레이션 해보기 (Live Demo):** [https://cupfeedback.github.io/threebody-problem-simulation/](https://cupfeedback.github.io/threebody-problem-simulation/)
 
-이 프로젝트는 넷플릭스 드라마 **'삼체(3 Body Problem)'**와 원작 소설을 보고, 소설 속에 묘사된 '삼체인들의 환경'이 과연 물리학적으로 구현 가능한지 궁금해서 시작하게 되었습니다.
+이 프로젝트는 넷플릭스 드라마 **삼체(3 Body Problem)**와 원작 소설을 보고, 소설 속에 묘사된 '삼체인들의 환경'이 과연 물리학적으로 구현 가능한지 궁금해서 시작하게 되었습니다.
 
 ## 🧪 직접 구현하며 발견한 사실들 (Findings)
 
-제가 직접 코드를 짜서 다양한 시뮬레이션을 돌려본 결과, **"소설 속의 삼체 환경은 실제로 구현하기가 거의 불가능에 가깝다"**는 것을 발견했습니다.
+제가 직접 코드를 짜서 다양한 시뮬레이션을 돌려본 결과, "소설 속의 삼체 환경은 **실제로 구현하기가 거의 불가능**에 가깝다"는 것을 발견했습니다.
 
 1.  **완전 무작위(Random) 환경의 한계**:
     *   초기 조건을 완전히 랜덤하게 설정하면, 시작하자마자 행성이 중력을 이기지 못하고 우주 저 멀리 뿔뿔이 흩어져 버립니다.
@@ -26,7 +26,7 @@
     *   소설에서 묘사된 "세 개의 태양이 일직선으로 늘어서 행성을 불바다로 만드는" 장면은 시뮬레이션 아주 초기에나 잠깐 나올 수 있는 희귀한 현상입니다.
     *   대부분의 경우 행성은 시스템에서 너무 빨리 튕겨 나가버려 두 번 다시 돌아오지 않습니다.
 
-이 프로젝트는 **"별의별 게 다 궁금했던 한 사람"**이 직접 물리학 엔진을 구현해 보며, 소설적 상상력과 물리적 현실 사이의 괴리를 탐구해 본 결과물입니다.
+이 프로젝트는 **별의별 게 다 궁금했던 한 사람**이 직접 물리학 엔진을 구현해 보며, 소설적 상상력과 물리적 현실 사이의 괴리를 탐구해 본 결과물입니다.
 
 ---
 
@@ -51,8 +51,9 @@ After coding and running various simulations myself, I discovered that **"implem
     *   However, even here, the planet eventually gets ejected.
     *   More importantly, since Figure-8 orbits are **periodic and predictable**, it contradicts the novel's core premise of "unpredictability." If this were the case, the Trisolarans could have easily created a calendar.
 
+
 4.  **Conclusion**:
     *   Scenes like "three suns aligning (Syzygy) to scorch the planet" are incredibly rare moments that might happen only at the very beginning.
     *   In most simulations, the planet is ejected from the system too quickly, never to return.
 
-This project is the result of **"one very curious person"** implementing a physics engine from scratch to explore the gap between fictional imagination and physical reality.
+This project is the result of **one very curious person** implementing a physics engine from scratch to explore the gap between fictional imagination and physical reality.
