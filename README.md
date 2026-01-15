@@ -3,7 +3,7 @@
 
 🔗 **시뮬레이션 해보기 (Live Demo):** [https://cupfeedback.github.io/threebody-problem-simulation/](https://cupfeedback.github.io/threebody-problem-simulation/)
 
-이 프로젝트는 넷플릭스 드라마 **삼체(3 Body Problem)**와 원작 소설을 보고, 소설 속에 묘사된 '삼체인들의 환경'이 과연 물리학적으로 구현 가능한지 궁금해서 시작하게 되었습니다.
+이 repo는 넷플릭스 드라마 삼체(3 Body Problem)와 원작 소설을 보고, 소설 속에 묘사된 '삼체인들의 환경'이 과연 물리학적으로 구현 가능한지 궁금해서 시작하게 되었습니다.
 
 ## 🧪 직접 구현하며 발견한 사실들 (Findings)
 
